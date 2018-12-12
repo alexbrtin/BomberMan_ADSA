@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Random_map_generator\Script\Map.cs" />
      <Compile Include="Assets\Random_map_generator\Script\MoveCamera.cs" />
+     <Compile Include="Assets\Random_map_generator\Script\Personnage.cs" />
+     <Compile Include="Assets\Random_map_generator\Script\Personnage_Controler.cs" />
      <Compile Include="Assets\Random_map_generator\Script\PixelPerfectCamera.cs" />
      <Compile Include="Assets\Random_map_generator\Script\Random_map_tester.cs" />
      <Compile Include="Assets\Random_map_generator\Script\Tile.cs" />

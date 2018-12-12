@@ -1,105 +1,88 @@
 fileFormatVersion: 2
-guid: 3b839ed411908e0488b4565400caedd7
-timeCreated: 1544102060
+guid: a154bf8fc7a763145a921ceb96537a8f
+timeCreated: 1544633827
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: asset_bomberman_0
-    21300002: asset_bomberman_1
-    21300004: asset_bomberman_2
-    21300006: asset_bomberman_3
-    21300008: asset_bomberman_4
-    21300010: asset_bomberman_5
-    21300012: asset_bomberman_6
-    21300014: asset_bomberman_7
-    21300016: asset_bomberman_8
-    21300018: asset_bomberman_9
-    21300020: asset_bomberman_10
-    21300022: asset_bomberman_11
-    21300024: asset_bomberman_12
-    21300026: asset_bomberman_13
-    21300028: asset_bomberman_14
-    21300030: asset_bomberman_15
-    21300032: asset_bomberman_16
-    21300034: asset_bomberman_17
-    21300036: asset_bomberman_18
-    21300038: asset_bomberman_19
-    21300040: asset_bomberman_20
-    21300042: asset_bomberman_21
-    21300044: asset_bomberman_22
-    21300046: asset_bomberman_23
-    21300048: asset_bomberman_24
-    21300050: asset_bomberman_25
-    21300052: asset_bomberman_26
-    21300054: asset_bomberman_27
-    21300056: asset_bomberman_28
-    21300058: asset_bomberman_29
-    21300060: asset_bomberman_30
-    21300062: asset_bomberman_31
-    21300064: asset_bomberman_32
-    21300066: asset_bomberman_33
-    21300068: asset_bomberman_34
-    21300070: asset_bomberman_35
-    21300072: asset_bomberman_36
-    21300074: asset_bomberman_37
-    21300076: asset_bomberman_38
-    21300078: asset_bomberman_39
-    21300080: asset_bomberman_40
-    21300082: asset_bomberman_41
-    21300084: asset_bomberman_42
-    21300086: asset_bomberman_43
-    21300088: asset_bomberman_44
-    21300090: asset_bomberman_45
-    21300092: asset_bomberman_46
-    21300094: asset_bomberman_47
-    21300096: asset_bomberman_48
-    21300098: asset_bomberman_49
-    21300100: asset_bomberman_50
-    21300102: asset_bomberman_51
-    21300104: asset_bomberman_52
-    21300106: asset_bomberman_53
-    21300108: asset_bomberman_54
-    21300110: asset_bomberman_55
-    21300112: asset_bomberman_56
-    21300114: asset_bomberman_57
-    21300116: asset_bomberman_58
-    21300118: asset_bomberman_59
-    21300120: asset_bomberman_60
-    21300122: asset_bomberman_61
-    21300124: asset_bomberman_62
-    21300126: asset_bomberman_63
-    21300128: asset_bomberman_64
-    21300130: asset_bomberman_65
-    21300132: asset_bomberman_66
-    21300134: asset_bomberman_67
-    21300136: asset_bomberman_68
-    21300138: asset_bomberman_69
-    21300140: asset_bomberman_70
-    21300142: asset_bomberman_71
-    21300144: asset_bomberman_72
-    21300146: asset_bomberman_73
-    21300148: asset_bomberman_74
-    21300150: asset_bomberman_75
-    21300152: asset_bomberman_76
-    21300154: asset_bomberman_77
-    21300156: asset_bomberman_78
-    21300158: asset_bomberman_79
-    21300160: asset_bomberman_80
-    21300162: asset_bomberman_81
-    21300164: asset_bomberman_82
-    21300166: asset_bomberman_83
-    21300168: asset_bomberman_84
-    21300170: asset_bomberman_85
-    21300172: asset_bomberman_86
-    21300174: asset_bomberman_87
-    21300176: asset_bomberman_88
-    21300178: asset_bomberman_89
-    21300180: asset_bomberman_90
-    21300182: asset_bomberman_91
-    21300184: asset_bomberman_92
-    21300186: asset_bomberman_93
-    21300188: asset_bomberman_94
-    21300190: asset_bomberman_95
+    21300000: bomberman_spritesheet_0
+    21300002: bomberman_spritesheet_1
+    21300004: bomberman_spritesheet_2
+    21300006: bomberman_spritesheet_3
+    21300008: bomberman_spritesheet_4
+    21300010: bomberman_spritesheet_5
+    21300012: bomberman_spritesheet_6
+    21300014: bomberman_spritesheet_7
+    21300016: bomberman_spritesheet_8
+    21300018: bomberman_spritesheet_9
+    21300020: bomberman_spritesheet_10
+    21300022: bomberman_spritesheet_11
+    21300024: bomberman_spritesheet_12
+    21300026: bomberman_spritesheet_13
+    21300028: bomberman_spritesheet_14
+    21300030: bomberman_spritesheet_15
+    21300032: bomberman_spritesheet_16
+    21300034: bomberman_spritesheet_17
+    21300036: bomberman_spritesheet_18
+    21300038: bomberman_spritesheet_19
+    21300040: bomberman_spritesheet_20
+    21300042: bomberman_spritesheet_21
+    21300044: bomberman_spritesheet_22
+    21300046: bomberman_spritesheet_23
+    21300048: bomberman_spritesheet_24
+    21300050: bomberman_spritesheet_25
+    21300052: bomberman_spritesheet_26
+    21300054: bomberman_spritesheet_27
+    21300056: bomberman_spritesheet_28
+    21300058: bomberman_spritesheet_29
+    21300060: bomberman_spritesheet_30
+    21300062: bomberman_spritesheet_31
+    21300064: bomberman_spritesheet_32
+    21300066: bomberman_spritesheet_33
+    21300068: bomberman_spritesheet_34
+    21300070: bomberman_spritesheet_35
+    21300072: bomberman_spritesheet_36
+    21300074: bomberman_spritesheet_37
+    21300076: bomberman_spritesheet_38
+    21300078: bomberman_spritesheet_39
+    21300080: bomberman_spritesheet_40
+    21300082: bomberman_spritesheet_41
+    21300084: bomberman_spritesheet_42
+    21300086: bomberman_spritesheet_43
+    21300088: bomberman_spritesheet_44
+    21300090: bomberman_spritesheet_45
+    21300092: bomberman_spritesheet_46
+    21300094: bomberman_spritesheet_47
+    21300096: bomberman_spritesheet_48
+    21300098: bomberman_spritesheet_49
+    21300100: bomberman_spritesheet_50
+    21300102: bomberman_spritesheet_51
+    21300104: bomberman_spritesheet_52
+    21300106: bomberman_spritesheet_53
+    21300108: bomberman_spritesheet_54
+    21300110: bomberman_spritesheet_55
+    21300112: bomberman_spritesheet_56
+    21300114: bomberman_spritesheet_57
+    21300116: bomberman_spritesheet_58
+    21300118: bomberman_spritesheet_59
+    21300120: bomberman_spritesheet_60
+    21300122: bomberman_spritesheet_61
+    21300124: bomberman_spritesheet_62
+    21300126: bomberman_spritesheet_63
+    21300128: bomberman_spritesheet_64
+    21300130: bomberman_spritesheet_65
+    21300132: bomberman_spritesheet_66
+    21300134: bomberman_spritesheet_67
+    21300136: bomberman_spritesheet_68
+    21300138: bomberman_spritesheet_69
+    21300140: bomberman_spritesheet_70
+    21300142: bomberman_spritesheet_71
+    21300144: bomberman_spritesheet_72
+    21300146: bomberman_spritesheet_73
+    21300148: bomberman_spritesheet_74
+    21300150: bomberman_spritesheet_75
+    21300152: bomberman_spritesheet_76
+    21300154: bomberman_spritesheet_77
+    21300156: bomberman_spritesheet_78
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -146,7 +129,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: asset_bomberman_0
+    - name: bomberman_spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,10 +137,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_1
+    - name: bomberman_spritesheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -165,10 +148,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_2
+    - name: bomberman_spritesheet_2
       rect:
         serializedVersion: 2
         x: 32
@@ -176,10 +159,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_3
+    - name: bomberman_spritesheet_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,87 +170,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_7
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_9
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_10
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_11
+    - name: bomberman_spritesheet_4
       rect:
         serializedVersion: 2
         x: 176
@@ -275,10 +181,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_12
+    - name: bomberman_spritesheet_5
       rect:
         serializedVersion: 2
         x: 192
@@ -286,10 +192,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_13
+    - name: bomberman_spritesheet_6
       rect:
         serializedVersion: 2
         x: 208
@@ -297,10 +203,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_14
+    - name: bomberman_spritesheet_7
       rect:
         serializedVersion: 2
         x: 224
@@ -308,10 +214,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_15
+    - name: bomberman_spritesheet_8
       rect:
         serializedVersion: 2
         x: 240
@@ -319,10 +225,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_16
+    - name: bomberman_spritesheet_9
       rect:
         serializedVersion: 2
         x: 0
@@ -330,10 +236,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_17
+    - name: bomberman_spritesheet_10
       rect:
         serializedVersion: 2
         x: 16
@@ -341,10 +247,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_18
+    - name: bomberman_spritesheet_11
       rect:
         serializedVersion: 2
         x: 32
@@ -352,10 +258,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_19
+    - name: bomberman_spritesheet_12
       rect:
         serializedVersion: 2
         x: 48
@@ -363,10 +269,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_20
+    - name: bomberman_spritesheet_13
       rect:
         serializedVersion: 2
         x: 64
@@ -374,10 +280,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_21
+    - name: bomberman_spritesheet_14
       rect:
         serializedVersion: 2
         x: 80
@@ -385,10 +291,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_22
+    - name: bomberman_spritesheet_15
       rect:
         serializedVersion: 2
         x: 96
@@ -396,10 +302,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_23
+    - name: bomberman_spritesheet_16
       rect:
         serializedVersion: 2
         x: 112
@@ -407,10 +313,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_24
+    - name: bomberman_spritesheet_17
       rect:
         serializedVersion: 2
         x: 128
@@ -418,10 +324,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_25
+    - name: bomberman_spritesheet_18
       rect:
         serializedVersion: 2
         x: 144
@@ -429,21 +335,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_26
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_27
+    - name: bomberman_spritesheet_19
       rect:
         serializedVersion: 2
         x: 176
@@ -451,10 +346,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_28
+    - name: bomberman_spritesheet_20
       rect:
         serializedVersion: 2
         x: 192
@@ -462,10 +357,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_29
+    - name: bomberman_spritesheet_21
       rect:
         serializedVersion: 2
         x: 208
@@ -473,10 +368,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_30
+    - name: bomberman_spritesheet_22
       rect:
         serializedVersion: 2
         x: 224
@@ -484,10 +379,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_31
+    - name: bomberman_spritesheet_23
       rect:
         serializedVersion: 2
         x: 240
@@ -495,10 +390,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_32
+    - name: bomberman_spritesheet_24
       rect:
         serializedVersion: 2
         x: 0
@@ -506,10 +401,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_33
+    - name: bomberman_spritesheet_25
       rect:
         serializedVersion: 2
         x: 16
@@ -517,10 +412,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_34
+    - name: bomberman_spritesheet_26
       rect:
         serializedVersion: 2
         x: 32
@@ -528,10 +423,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_35
+    - name: bomberman_spritesheet_27
       rect:
         serializedVersion: 2
         x: 48
@@ -539,10 +434,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_36
+    - name: bomberman_spritesheet_28
       rect:
         serializedVersion: 2
         x: 64
@@ -550,10 +445,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_37
+    - name: bomberman_spritesheet_29
       rect:
         serializedVersion: 2
         x: 80
@@ -561,10 +456,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_38
+    - name: bomberman_spritesheet_30
       rect:
         serializedVersion: 2
         x: 96
@@ -572,10 +467,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_39
+    - name: bomberman_spritesheet_31
       rect:
         serializedVersion: 2
         x: 112
@@ -583,10 +478,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_40
+    - name: bomberman_spritesheet_32
       rect:
         serializedVersion: 2
         x: 128
@@ -594,10 +489,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_41
+    - name: bomberman_spritesheet_33
       rect:
         serializedVersion: 2
         x: 144
@@ -605,21 +500,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_42
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_43
+    - name: bomberman_spritesheet_34
       rect:
         serializedVersion: 2
         x: 176
@@ -627,10 +511,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_44
+    - name: bomberman_spritesheet_35
       rect:
         serializedVersion: 2
         x: 192
@@ -638,10 +522,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_45
+    - name: bomberman_spritesheet_36
       rect:
         serializedVersion: 2
         x: 208
@@ -649,10 +533,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_46
+    - name: bomberman_spritesheet_37
       rect:
         serializedVersion: 2
         x: 224
@@ -660,10 +544,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_47
+    - name: bomberman_spritesheet_38
       rect:
         serializedVersion: 2
         x: 240
@@ -671,10 +555,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_48
+    - name: bomberman_spritesheet_39
       rect:
         serializedVersion: 2
         x: 0
@@ -682,10 +566,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_49
+    - name: bomberman_spritesheet_40
       rect:
         serializedVersion: 2
         x: 16
@@ -693,10 +577,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_50
+    - name: bomberman_spritesheet_41
       rect:
         serializedVersion: 2
         x: 32
@@ -704,10 +588,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_51
+    - name: bomberman_spritesheet_42
       rect:
         serializedVersion: 2
         x: 48
@@ -715,10 +599,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_52
+    - name: bomberman_spritesheet_43
       rect:
         serializedVersion: 2
         x: 64
@@ -726,10 +610,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_53
+    - name: bomberman_spritesheet_44
       rect:
         serializedVersion: 2
         x: 80
@@ -737,10 +621,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_54
+    - name: bomberman_spritesheet_45
       rect:
         serializedVersion: 2
         x: 96
@@ -748,10 +632,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_55
+    - name: bomberman_spritesheet_46
       rect:
         serializedVersion: 2
         x: 112
@@ -759,10 +643,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_56
+    - name: bomberman_spritesheet_47
       rect:
         serializedVersion: 2
         x: 128
@@ -770,10 +654,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_57
+    - name: bomberman_spritesheet_48
       rect:
         serializedVersion: 2
         x: 144
@@ -781,21 +665,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_58
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_59
+    - name: bomberman_spritesheet_49
       rect:
         serializedVersion: 2
         x: 176
@@ -803,10 +676,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_60
+    - name: bomberman_spritesheet_50
       rect:
         serializedVersion: 2
         x: 192
@@ -814,10 +687,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_61
+    - name: bomberman_spritesheet_51
       rect:
         serializedVersion: 2
         x: 208
@@ -825,10 +698,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_62
+    - name: bomberman_spritesheet_52
       rect:
         serializedVersion: 2
         x: 224
@@ -836,10 +709,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_63
+    - name: bomberman_spritesheet_53
       rect:
         serializedVersion: 2
         x: 240
@@ -847,10 +720,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_64
+    - name: bomberman_spritesheet_54
       rect:
         serializedVersion: 2
         x: 0
@@ -858,10 +731,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_65
+    - name: bomberman_spritesheet_55
       rect:
         serializedVersion: 2
         x: 16
@@ -869,10 +742,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_66
+    - name: bomberman_spritesheet_56
       rect:
         serializedVersion: 2
         x: 32
@@ -880,10 +753,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_67
+    - name: bomberman_spritesheet_57
       rect:
         serializedVersion: 2
         x: 48
@@ -891,10 +764,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_68
+    - name: bomberman_spritesheet_58
       rect:
         serializedVersion: 2
         x: 64
@@ -902,10 +775,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_69
+    - name: bomberman_spritesheet_59
       rect:
         serializedVersion: 2
         x: 80
@@ -913,10 +786,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_70
+    - name: bomberman_spritesheet_60
       rect:
         serializedVersion: 2
         x: 96
@@ -924,10 +797,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_71
+    - name: bomberman_spritesheet_61
       rect:
         serializedVersion: 2
         x: 112
@@ -935,10 +808,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_72
+    - name: bomberman_spritesheet_62
       rect:
         serializedVersion: 2
         x: 128
@@ -946,10 +819,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_73
+    - name: bomberman_spritesheet_63
       rect:
         serializedVersion: 2
         x: 144
@@ -957,21 +830,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_74
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_75
+    - name: bomberman_spritesheet_64
       rect:
         serializedVersion: 2
         x: 176
@@ -979,10 +841,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_76
+    - name: bomberman_spritesheet_65
       rect:
         serializedVersion: 2
         x: 192
@@ -990,10 +852,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_77
+    - name: bomberman_spritesheet_66
       rect:
         serializedVersion: 2
         x: 208
@@ -1001,10 +863,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_78
+    - name: bomberman_spritesheet_67
       rect:
         serializedVersion: 2
         x: 224
@@ -1012,10 +874,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_79
+    - name: bomberman_spritesheet_68
       rect:
         serializedVersion: 2
         x: 240
@@ -1023,10 +885,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_80
+    - name: bomberman_spritesheet_69
       rect:
         serializedVersion: 2
         x: 0
@@ -1034,10 +896,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_81
+    - name: bomberman_spritesheet_70
       rect:
         serializedVersion: 2
         x: 16
@@ -1045,10 +907,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_82
+    - name: bomberman_spritesheet_71
       rect:
         serializedVersion: 2
         x: 32
@@ -1056,10 +918,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_83
+    - name: bomberman_spritesheet_72
       rect:
         serializedVersion: 2
         x: 48
@@ -1067,76 +929,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_84
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_85
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_86
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_87
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_88
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_89
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: asset_bomberman_90
+    - name: bomberman_spritesheet_73
       rect:
         serializedVersion: 2
         x: 160
@@ -1144,10 +940,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_91
+    - name: bomberman_spritesheet_74
       rect:
         serializedVersion: 2
         x: 176
@@ -1155,10 +951,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_92
+    - name: bomberman_spritesheet_75
       rect:
         serializedVersion: 2
         x: 192
@@ -1166,10 +962,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_93
+    - name: bomberman_spritesheet_76
       rect:
         serializedVersion: 2
         x: 208
@@ -1177,10 +973,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_94
+    - name: bomberman_spritesheet_77
       rect:
         serializedVersion: 2
         x: 224
@@ -1188,10 +984,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: asset_bomberman_95
+    - name: bomberman_spritesheet_78
       rect:
         serializedVersion: 2
         x: 240
@@ -1199,7 +995,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

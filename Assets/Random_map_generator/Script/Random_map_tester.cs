@@ -10,10 +10,11 @@ public class Random_map_tester : MonoBehaviour
     [Space] // Espacement dans l'inspecteur 
     [Header("Visualisation de la Map")] // Noms de l'espace dans l'inspecteur   
     public GameObject mapContainer; // Game object de la map 
-    public GameObject tile_grass; // Prefab du sol de la map 
-    public GameObject Wall_outside_Prefab;
-    public GameObject Wall_inside_Prefab;
-    public GameObject Box_Prefab;    
+    public GameObject PrefabsGrass; // Prefab du sol de la map 
+    public GameObject WallOutsidePrefab;
+    public GameObject Spawn;
+    public GameObject WallInsidePrefab;
+    public GameObject BoxPrefab;    
     public Vector2 Taille_tuile = new Vector2(16, 16); // taille en pixel d'une tuile
 
 
@@ -59,8 +60,8 @@ public class Random_map_tester : MonoBehaviour
         var nb_wall_outside = 0; // nombre de mur composant notre map ( pour nommer les game object )   
         var nb_grass = 0;
         var nb_spawn = 0;
-        var nb_box = 0;          
-
+        var nb_box = 0;
+        var nb_wall_inside = 0;
         for (int i = 0; i < total; i++) // Pour i allant de 0 à la taille de notre tableau 
         {
             colonne = i % Max_nb_colonne; // Colonne prend la valeur de i modulo le nombre maximum de colonne            
@@ -76,45 +77,54 @@ public class Random_map_tester : MonoBehaviour
            
 
             
-            if (id_sprite == 15)
-            {
-                var grass_dirt_go = Instantiate(tile_grass); // On instancie un GameObject
+            
+                var grass_dirt_go = Instantiate(PrefabsGrass); // On instancie un GameObject
                 grass_dirt_go.name = "Grass_ " + nb_grass; // Il prendra le nom "tuile" + l'indice dans le tableau 
                 grass_dirt_go.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
                 grass_dirt_go.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
                 var sprite_render = grass_dirt_go.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
                 sprite_render.sprite = Sprites[1];
                 nb_grass++;
-            }
+            
             if(id_sprite == 0)
             {
-                var grass_dirt_go = Instantiate(tile_grass); // On instancie un GameObject
-                grass_dirt_go.name = "Spawn " + nb_spawn; // Il prendra le nom "tuile" + l'indice dans le tableau 
-                grass_dirt_go.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
-                grass_dirt_go.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
-                var sprite_render = grass_dirt_go.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
-                sprite_render.sprite = Sprites[0];
+                var Spawngo = Instantiate(Spawn); // On instancie un GameObject
+                Spawngo.name = "Spawn " + nb_spawn; // Il prendra le nom "tuile" + l'indice dans le tableau 
+                Spawngo.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
+                Spawngo.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
+                var Spawn_sprite_render = Spawngo.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
+                Spawn_sprite_render.sprite = Sprites[0];
                 nb_spawn++;
             }
             if (id_sprite <15 && id_sprite>0)
             {
-                var grass_dirt_go = Instantiate(Wall_outside_Prefab); // On instancie un GameObject
-                grass_dirt_go.name = "Wall_ " + nb_wall_outside; // Il prendra le nom "tuile" + l'indice dans le tableau 
-                grass_dirt_go.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
-                grass_dirt_go.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
-                var sprite_render = grass_dirt_go.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
-                sprite_render.sprite = Sprites[91];
+                var Wall_out = Instantiate(WallOutsidePrefab); // On instancie un GameObject
+                Wall_out.name = "Wall_out_" + nb_wall_outside; // Il prendra le nom "tuile" + l'indice dans le tableau 
+                Wall_out.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
+                Wall_out.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
+                var Wall_out_sprite_render = Wall_out.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
+                Wall_out_sprite_render.sprite = Sprites[74];
                 nb_wall_outside++;
             }
-            if(id_sprite>15)
+            if(id_sprite==73)
             {
-                var grass_dirt_go = Instantiate(Box_Prefab); // On instancie un GameObject
-                grass_dirt_go.name = "Box_ " + nb_box; // Il prendra le nom "tuile" + l'indice dans le tableau 
-                grass_dirt_go.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
-                grass_dirt_go.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
-                var sprite_render = grass_dirt_go.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
-                sprite_render.sprite = Sprites[90];
+                var Box = Instantiate(BoxPrefab); // On instancie un GameObject
+                Box.name = "Box_ " + nb_box; // Il prendra le nom "tuile" + l'indice dans le tableau 
+                Box.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
+                Box.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
+                var Box_sprite_render = Box.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
+                Box_sprite_render.sprite = Sprites[id_sprite];
                 nb_box++;
+            }
+            if (id_sprite == 64)
+            {
+                var Wall_in = Instantiate(WallInsidePrefab); // On instancie un GameObject
+                Wall_in.name = "Wall_in_ " + nb_wall_inside; // Il prendra le nom "tuile" + l'indice dans le tableau 
+                Wall_in.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
+                Wall_in.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
+                var Wall_in_Box_sprite_render = Wall_in.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
+                Wall_in_Box_sprite_render.sprite = Sprites[id_sprite];
+                nb_wall_inside++;
             }
 
             if (colonne == (Max_nb_colonne - 1)) // si le numéro de la colonne courante est égales au nombre de colonne de la map 

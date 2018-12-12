@@ -6,9 +6,9 @@ public enum type_tuile
 {
     vide = -1,
     herbe = 15,
-    box = 90,
-    mur_ingame = 75,
-    mur_outgame = 91,
+    box = 73,
+    mur_ingame = 64,
+    mur_outgame = 74,
     spawn = 0   
 }
 public class Map
