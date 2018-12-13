@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B912D386-9495-0EEA-17D3-629E3190F7A4}") = "BomberMan_ADSA", "Assembly-CSharp.csproj", "{9BA9096D-3597-5802-C249-3AC41A37083D}"
+EndProject
+Project("{B912D386-9495-0EEA-17D3-629E3190F7A4}") = "BomberMan_ADSA", "Assembly-CSharp-Editor.csproj", "{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA9096D-3597-5802-C249-3AC41A37083D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA9096D-3597-5802-C249-3AC41A37083D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA9096D-3597-5802-C249-3AC41A37083D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA9096D-3597-5802-C249-3AC41A37083D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
