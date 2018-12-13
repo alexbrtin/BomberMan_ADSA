@@ -14,7 +14,8 @@ public class Random_map_tester : MonoBehaviour
     public GameObject WallOutsidePrefab;
     public GameObject Spawn;
     public GameObject WallInsidePrefab;
-    public GameObject BoxPrefab;    
+    public GameObject BoxPrefab;
+    public GameObject Perso;
     public Vector2 Taille_tuile = new Vector2(16, 16); // taille en pixel d'une tuile
 
 
@@ -91,6 +92,15 @@ public class Random_map_tester : MonoBehaviour
                 var Spawngo = Instantiate(Spawn); // On instancie un GameObject
                 Spawngo.name = "Spawn " + nb_spawn; // Il prendra le nom "tuile" + l'indice dans le tableau 
                 Spawngo.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
+                if(nb_spawn == 1)
+                {
+                    var personnage_1 = Instantiate(Perso);
+                    personnage_1.name = "Joueur";
+                    personnage_1.transform.SetParent(mapContainer.transform);
+                    personnage_1.transform.position = new Vector3(Tuile_X, Tuile_Y, 0);
+
+
+                }
                 Spawngo.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
                 var Spawn_sprite_render = Spawngo.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
                 Spawn_sprite_render.sprite = Sprites[0];
