@@ -10,3 +10,7 @@ Thumbs.db
 /Library/metadata
 /obj
 /.vs
+/Temp
+/Library
+Library/
+Temp/
