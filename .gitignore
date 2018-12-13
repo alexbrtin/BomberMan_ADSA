@@ -1,0 +1,12 @@
+/packages
+.log
+.lock
+.tmp
+/bin
+/out
+/target
+Thumbs.db
+.DS_Store
+/Library/metadata
+/obj
+/.vs
