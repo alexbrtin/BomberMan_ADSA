@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 public class Random_map_tester : MonoBehaviour
-{
+{   
     [Header("Dimension de la Map")] // Noms de l'area  
     public int LargeurMap = 20; // On met par défaut la largeur de la map sur 20
     public int HauteurMap = 20; // On met par défaut la hauteur de la map sur 20
@@ -29,13 +29,12 @@ public class Random_map_tester : MonoBehaviour
     public int PourcentageBox = 40;
     [Range(0, 90)] // pourcentage du gameObject
     public int PourcentageMurInGame = 15;
-
-    public Map map;    
+    public Map map; 
+       
     // Use this for initialization
     void Start()
     {
         map = new Map(); // Instanciation de la map 
-
     }
 
     // Update is called once per frame
@@ -47,6 +46,7 @@ public class Random_map_tester : MonoBehaviour
         
         CreateGrid();
     }
+
     void CreateGrid() // Creation de la grille de Sprite 
     {
         Supprimer_Tuile();
@@ -63,6 +63,7 @@ public class Random_map_tester : MonoBehaviour
         var nb_spawn = 0;
         var nb_box = 0;
         var nb_wall_inside = 0;
+        var personnage_1 = Instantiate(Perso);
         for (int i = 0; i < total; i++) // Pour i allant de 0 à la taille de notre tableau 
         {
             colonne = i % Max_nb_colonne; // Colonne prend la valeur de i modulo le nombre maximum de colonne            
@@ -94,17 +95,18 @@ public class Random_map_tester : MonoBehaviour
                 Spawngo.transform.SetParent(mapContainer.transform); // On place le game object en tant qu'enfant de la grille dans la hierarchie 
                 if(nb_spawn == 1)
                 {
-                    var personnage_1 = Instantiate(Perso);
                     personnage_1.name = "Joueur";
                     personnage_1.transform.SetParent(mapContainer.transform);
                     personnage_1.transform.position = new Vector3(Tuile_X, Tuile_Y, 0);
-
-
                 }
                 Spawngo.transform.position = new Vector3(Tuile_X, Tuile_Y, 0); // On change la position actuelle 
                 var Spawn_sprite_render = Spawngo.GetComponent<SpriteRenderer>(); // Pour obtenir l'instance du Sprite renderer
                 Spawn_sprite_render.sprite = Sprites[0];
                 nb_spawn++;
+
+                var moveScript = Camera.main.GetComponent<MoveCamera> ();
+                moveScript.player = personnage_1;
+
             }
             if (id_sprite <15 && id_sprite>0)
             {
@@ -155,5 +157,7 @@ public class Random_map_tester : MonoBehaviour
             Destroy(enfant[i].gameObject);
         }
     }
+
+
 
 }

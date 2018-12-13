@@ -1,9 +1,9 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B912D386-9495-0EEA-17D3-629E3190F7A4}") = "BomberMan_ADSA", "Assembly-CSharp.csproj", "{9BA9096D-3597-5802-C249-3AC41A37083D}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9BA9096D-3597-5802-C249-3AC41A37083D}"
 EndProject
-Project("{B912D386-9495-0EEA-17D3-629E3190F7A4}") = "BomberMan_ADSA", "Assembly-CSharp-Editor.csproj", "{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2BCE4400-C7A3-ECBE-4702-E2AC7E1F9762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,8 +22,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
