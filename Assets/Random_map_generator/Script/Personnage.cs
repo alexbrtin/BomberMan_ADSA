@@ -5,7 +5,7 @@ public class Personnage : MonoBehaviour
 {
 
     [SerializeField]
-    public float vitesse = 150f;
+    public float vitesse = 1f;
     public Vector2 vitesse_max = new Vector2(60, 100);
     private Rigidbody2D corps;
     private SpriteRenderer rendu_2D; // pour pouvoir accéder aux propriété de l'objet 
@@ -69,7 +69,7 @@ public class Personnage : MonoBehaviour
 
 
 
-        corps.AddForce(new Vector2(forceX, forceY));
+        corps.transform.Translate(new Vector2(forceX, forceY));
     }
     
 }
