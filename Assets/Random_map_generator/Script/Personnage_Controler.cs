@@ -3,10 +3,17 @@ using System.Collections;
 
 public class Personnage_Controler : MonoBehaviour {
     public Vector2 deplacement = new Vector2();
-	// Use this for initialization
-	void Start () {
-	
-	}
+
+    public GameObject Prefabs_bombes;
+
+    public bool canDropBombs = true;
+
+    private Transform myTransform;
+    // Use this for initialization
+    void Start () {
+        myTransform = transform;
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -17,7 +24,7 @@ public class Personnage_Controler : MonoBehaviour {
         {
             deplacement.x = 1;
         }
-        else if(Input.GetKey("left"))
+        if(Input.GetKey("left"))
         {
             deplacement.x = -1;
         }
@@ -26,12 +33,26 @@ public class Personnage_Controler : MonoBehaviour {
         {
             deplacement.y = 1;
         }
-        else if(Input.GetKey("down"))
+        if(Input.GetKey("down"))
         {
             deplacement.y = -1;
         }
+        if(canDropBombs && Input.GetKeyDown(KeyCode.Space))
+        { //Drop bomb
+            DropBomb();
+        }
 
 
+    }
 
+    private void DropBomb()
+    {
+        if(Prefabs_bombes)
+        { //Check if bomb prefab is assigned first
+            Instantiate(Prefabs_bombes, new Vector3(Mathf.RoundToInt(myTransform.position.x),
+                Mathf.RoundToInt(myTransform.position.y),
+                Prefabs_bombes.transform.position.z),
+                Prefabs_bombes.transform.rotation);
+        }
     }
 }
