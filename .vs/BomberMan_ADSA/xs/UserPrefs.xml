@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{9BA9096D-3597-5802-C249-3AC41A37083D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Random_map_generator/Script/MoveCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Random_map_generator/Script/Bomb.cs">
     <Files>
       <File FileName="Assets/Random_map_generator/Script/MoveCamera.cs" Line="7" Column="5" />
-      <File FileName="Assets/Random_map_generator/Script/Personnage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Random_map_generator/Script/Personnage.cs" Line="53" Column="14" />
+      <File FileName="Assets/Random_map_generator/Script/Personnage_Controler.cs" Line="56" Column="10" />
+      <File FileName="Assets/Random_map_generator/Script/Bomb.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
