@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 3bd09b63fb652bc47ade8c4550eea485
-timeCreated: 1544650941
+timeCreated: 1546189770
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mapContainer: {fileID: 155052, guid: c27c599cfbdff0a4a915e5dd0d60b72b, type: 2}
+  - Prefabs_bombes: {fileID: 141196, guid: 7d28bb876c330c4429dde9dac7b02e42, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

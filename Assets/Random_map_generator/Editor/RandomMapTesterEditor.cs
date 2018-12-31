@@ -19,7 +19,15 @@ public class RandomMapTesterEditor : Editor // Editor pour indiquer que on déve
                 script.Generer_Map(); // On créer la map 
             }
         }
+        if(GUILayout.Button("Chercher chemin"))
+        {
+            if (Application.isPlaying) // Si l'application est lancée 
+            {
+                script.Chercher_chemin(); // On créer la map 
+            }
+        }
 
     }
 
 }
+

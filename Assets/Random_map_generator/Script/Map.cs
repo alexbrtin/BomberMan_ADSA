@@ -38,9 +38,8 @@ public class Map
 
             return tuiles.Where(t => t.id < (int)type_tuile.herbe && t.id > 0).ToArray();
         }
-    }
-
-    public void NewMap(int largeur, int hauteur) // Méthode pour créer la map 
+    }  
+    public void NewMap(int largeur, int hauteur) // Méthode pour créer la map et le graph 
     {
         colonnes = largeur;// On initialise le nombre de colonne sur la largeur de la map choisi
         ligne = hauteur;// On initialise le nombre de ligne sur la hauteur de la map choisi
@@ -50,6 +49,37 @@ public class Map
                                              // de ligne afin de savoir ou se placer
         Creer_Tuiles(); // On remplie la map avec l'ensemble des tuiles instanciées
         Spawn();
+       
+    }
+    public void adjacent_tile()
+    {
+        for (int i = 0; i < ligne; i++) // Ligne et colonne corresponde à la hauteur et à la largeur de la map 
+        {
+            for (int j = 0; j < colonnes; j++)
+            {
+                var t = tuiles[colonnes * i + j]; // convertir une matrice en tableau
+                if (t.passable != true)
+                {
+                    continue;
+                }
+                if (i < ligne - 1)
+                {
+                    t.adjacente.Add(tuiles[colonnes * (i + 1) + j]);
+                }
+                if (j < colonnes - 1)
+                {
+                    t.adjacente.Add(tuiles[colonnes * i + j + 1]);
+                }
+                if (j > 0)
+                {
+                    t.adjacente.Add(tuiles[colonnes * i + j - 1]);
+                }
+                if (i > 0)
+                {
+                    t.adjacente.Add(tuiles[colonnes * (i - 1) + j]);
+                }
+            }
+        }
     }
     public void Creer_terrain(int box_pourcentage, int muringame_pourcengage)
     {
@@ -72,13 +102,13 @@ public class Map
         Trouver_voisins();
         Spawn();
     }
-    private void Trouver_voisins()// Méthode pour trouver les voisins de notre case 
+    private void Trouver_voisins()// Méthode pour trouver les voisins de notre case et créer les liaisons entre les nodes 
     {
         for (int i = 0; i < ligne; i++) // Ligne et colonne corresponde à la hauteur et à la largeur de la map 
         {
             for (int j = 0; j < colonnes; j++)
             {
-                var t = tuiles[colonnes * i + j];
+                var t = tuiles[colonnes * i + j]; // convertir une matrice en tableau
                 if (i < ligne - 1)
                 {
                     t.Add_voisins(Voisins.Sud, tuiles[colonnes * (i + 1) + j]);
@@ -115,12 +145,13 @@ public class Map
             if (t.id > 0)
             {
                 t.id = (int)type;
+                t.passable = false;
             }
         }
     }
     public void Mélange_FY(Tile[] tab_t)// Algo de mélange de Fisher-Yates 
     {
-        Spawn();
+        
         for (int i = 0; i < tab_t.Length; i++)
         {
             var tamp = tab_t[i];
@@ -142,21 +173,25 @@ public class Map
                 if ((j == 1 && i == 1) || (j == 2 && i == 1) || j == 1 && i == 2)
                 {
                     t.spawn = true;
+                    t.passable = true;
                     t.id = 0;
                 }
                 if ((j == colonnes - 2 && i == 1) || (j == colonnes - 3 && i == 1) || (j == colonnes - 2 && i == 2))
                 {
                     t.spawn = true;
+                    t.passable = true;
                     t.id = 0;
                 }
                 if ((j == 1 && i == ligne - 2) || (j == 2 && i == ligne - 2) || (j == 1 && i == ligne - 3))
                 {
                     t.spawn = true;
+                    t.passable = true;
                     t.id = 0;
                 }
                 if ((j == colonnes - 2 && i == ligne - 2) || (j == colonnes - 3 && i == ligne - 2) || (j == colonnes - 2 && i == ligne - 3))
                 {
                     t.spawn = true;
+                    t.passable = true;
                     t.id = 0;
                 }               
             }

@@ -5,27 +5,22 @@ public class Personnage : MonoBehaviour
 {
 
     [SerializeField]
-    public GameObject bombe;
-    public int num_bomb_total = 1;
-    public float vitesse = 1f;
+    public float vitesse;
     public Vector2 vitesse_max = new Vector2(60, 100);
     private Rigidbody2D corps;
     private SpriteRenderer rendu_2D; // pour pouvoir accéder aux propriété de l'objet 
     private Personnage_Controler pc;
     private Animator anim;
-    private int num_bombe = 0;
     void Start()
     {
         corps = GetComponent<Rigidbody2D>();
         rendu_2D = GetComponent<SpriteRenderer>();
         pc = GetComponent<Personnage_Controler>();
         anim = GetComponent<Animator>();
-        
     }
 
     void Update()
     {
-        
         var absolute_velocityX = Mathf.Abs(corps.velocity.x);
         var absolute_velocityY = Mathf.Abs(corps.velocity.y);
 
@@ -70,21 +65,7 @@ public class Personnage : MonoBehaviour
         {
             anim.SetInteger("AnimState", 0);
         }
-        corps.transform.Translate(new Vector2(forceX, forceY));       
-    }
-    void poser_bombe()
-    {
-        if (num_bombe <= num_bomb_total)
-        {
-            if (Input.GetKey("space"))
-            {                
-                var deplacementX = Mathf.RoundToInt(this.transform.position.x);
-                var deplacementY = Mathf.RoundToInt(this.transform.position.y);
-                Vector3 vec = new Vector3(deplacementX, deplacementY, 0);
-                Instantiate(bombe, vec, Quaternion.identity);
-                num_bombe++;
-            }
-        }
+        corps.transform.Translate(new Vector2(forceX, forceY));
     }
     
 }

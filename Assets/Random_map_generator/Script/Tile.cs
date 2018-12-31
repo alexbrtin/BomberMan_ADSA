@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System;
 using System.Text;
 public enum Voisins // Enumeration des vosins en fonction de leur cardinalité 
@@ -17,8 +18,10 @@ public class Tile
     public Tile[] voisins = new Tile[4];// On aura besoin de connaitre les voisins de la cellule en cours ( 4 voisins direct ) 
     public bool mur = false;
     public bool carton = false;
-    public bool spawn = false;	
-
+    public bool spawn = false;
+    public bool passable = true; 
+    public Tile precedente = null;
+    public List<Tile> adjacente = new List<Tile>();
     public void Add_voisins(Voisins v,Tile t)
     {
         voisins[(int)v] = t;
@@ -65,6 +68,7 @@ public class Tile
                                                            // Par exemple si une tuile à un voisin à l'ouest et un voisin au sud
                                                            // Celon l'énumération définit avant ça donnera 1 Sud 0 Est 1 Ouest 0 Nord 
                                                            // Donc 1010 ce qui donne 10
+     
 
    
     }
