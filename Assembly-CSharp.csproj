@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D560FFA4-860F-62EF-68D6-90BD400F5D3E}</ProjectGuid>
+    <ProjectGuid>{9BA9096D-3597-5802-C249-3AC41A37083D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,8 +47,11 @@
   <ItemGroup>
      <Compile Include="Assets\Random_map_generator\Script\Map.cs" />
      <Compile Include="Assets\Random_map_generator\Script\MoveCamera.cs" />
+     <Compile Include="Assets\Random_map_generator\Script\Personnage.cs" />
+     <Compile Include="Assets\Random_map_generator\Script\Personnage_Controler.cs" />
      <Compile Include="Assets\Random_map_generator\Script\PixelPerfectCamera.cs" />
      <Compile Include="Assets\Random_map_generator\Script\Random_map_tester.cs" />
+     <Compile Include="Assets\Random_map_generator\Script\Search.cs" />
      <Compile Include="Assets\Random_map_generator\Script\Tile.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity_2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
